@@ -1,8 +1,9 @@
-- create new work flow
-- The workflow starts when the user clicks “Execute workflow”.
-- The next node “On form submission” waits for you to fill and submit a form.
-- After the form is submitted, the data is sent to the AI Agent node.
+- Create a new workflow in n8n.
+- The workflow begins when the user clicks “Execute workflow”.
+- The next node, “On form submission,” waits for you to fill out and submit a form.
+- After the form is submitted, the form data is sent to the AI Agent node.
 - The AI Agent uses the connected Google Gemini Chat Model to generate an AI response.
-- The generated response is then passed to the Send a message (Gmail) node.
+- The generated response is then passed to the “Send a message (Gmail)” node.
+- The Gmail node sends the AI-generated response to the specified email address.
 - # screenshot
 - <img width="1627" height="596" alt="Screenshot 2025-11-21 120838" src="https://github.com/user-attachments/assets/39823be6-370c-48c4-95eb-8c33861e3167" />
