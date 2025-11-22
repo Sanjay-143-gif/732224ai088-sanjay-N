@@ -4,5 +4,6 @@
 - Conditional Check: An If condition is used to check a specific condition (likely based on the data retrieved).
 - True Path: If the condition is true, a row is appended to "Append row in sheet" (likely one sheet).
 - False Path: If the condition is false, a different row is appended to "Append row in sheet1" (likely another sheet).
+
 - # screenshot
 - <img width="1674" height="542" alt="Screenshot 2025-11-21 121757" src="https://github.com/user-attachments/assets/830b8531-ab0e-42d5-931f-1af676b52be4" />
